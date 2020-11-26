@@ -38,12 +38,14 @@
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      <a class="navbar-brand page-scroll" href="#page-top">Moloto General Hospital</a> </div>
+      <a class="navbar-brand page-scroll" href="index.php">Moloto General Hospital</a> </div>
     
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="register.php" class="page-scroll">Register</a></li>
+        <li><a href="about.php" class="page-scroll">About MGH</a></li>
+        <li><a href="covid.php">Covid-19 info</a></li>
         
       </ul>
     </div>
@@ -64,12 +66,15 @@
   <label for="inputPassword" class="sr-only">Password</label>
   <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
   <div class="checkbox">
-    <label>
-      <input type="checkbox" value="remember-me"> Remember me
-    </label>
+    
   </div>
-  <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+  <button class="btn btn-lg btn-primary btn-block" type="submit">login</button>
+  <p>havent registered yet?</p>
+<li><a href="register.php" class="page-scroll">Register</a></li>
+
 </form>
+
+
 
 </div> <!-- /container -->
 

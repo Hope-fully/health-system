@@ -1,3 +1,4 @@
+<?php include('server.php') ?>
 <!DOCTYPE html>
 <head>
 	<title>Home</title>
@@ -41,7 +42,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="register.php" class="page-scroll">Register</a></li>
         <li><a href="login.php" class="page-scroll">Login</a></li>
-        <li><a href="about.php" class="page-scroll">About Hospital</a></li>
+        <li><a href="about.php" class="page-scroll">About MGH</a></li>
         <li><a href="covid.php">Covid-19 info</a></li>
         
       </ul>
@@ -50,5 +51,22 @@
   </div>
 </nav>
 
+
+<!-- Header -->
+<header id="header">
+  <div class="intro">
+    <div class="overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 intro-text">
+            <h1>Welcome to MGH<span></span></h1>
+            <p>Where your health is our number one priority</p>
+            <a href="login.php" class="btn btn-custom btn-lg page-scroll">Login</a> </div>
+            
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
 </body>
 </html>
