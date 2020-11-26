@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-	<title>Home</title>
+	<title>Register</title>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Interact</title>
@@ -39,16 +39,17 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="register.php" class="page-scroll">Register</a></li>
         <li><a href="login.php" class="page-scroll">Login</a></li>
-        <li><a href="about.php" class="page-scroll">About Hospital</a></li>
-        <li><a href="covid.php">Covid-19 info</a></li>
         
       </ul>
     </div>
     <!-- /.navbar-collapse --> 
   </div>
 </nav>
+
+
+<form>
+</form>
 
 </body>
 </html>
