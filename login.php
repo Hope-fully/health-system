@@ -26,6 +26,10 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900" rel="stylesheet">
+
+     <!-- Custom styles for this template -->
+     <link href="css/signin.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -39,7 +43,7 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="login.php" class="page-scroll">Login</a></li>
+        <li><a href="register.php" class="page-scroll">Register</a></li>
         
       </ul>
     </div>
@@ -51,70 +55,23 @@
 
 <body>
 
-<form class="form-horizontal" style="padding-top: 200px; width: 50%">
-<div class="form-group">
-    <label for="inputName" class="col-sm-2 control-label">Name</label>
-    <div class="col-sm-10">
-      <input type="name" class="form-control" id="inputName" placeholder="Enter name and surname  here">
-    </div>
-  </div>
-  <div class="form-group">
-    <label for="inputIDnumber" class="col-sm-2 control-label">ID Number</label>
-    <div class="col-sm-10">
-    <input type="number" class="form-control" id="inputIDnumber" placeholder="Enter your identity number">
-    </div>
-  </div>
-  <div class="form-group">
-    <label for="inputMobile" class="col-sm-2 control-label">Phone Number</label>
-    <div class="col-sm-10">
-      <input type="number" class="form-control" id="inputMobile" placeholder="Enter your phone number here">
-    </div>
-  </div>
-  <div class="form-group">
-    <label for="inputAddress" class="col-sm-2 control-label">Address</label>
-    <div class="col-sm-10">
-      <input type="address" class="form-control" id="inputAddress" placeholder="Enter your address here">
-    </div>
-  </div>
-  <div class="form-group">
-    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
-    <div class="col-sm-10">
-      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-    </div>
-  </div>
-  <div class="form-group">
-    <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
-    <div class="col-sm-10">
-      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
-    </div>
-  </div>
+<div class="container" style="padding-top:100px">
 
-  <div class="form-group">
-  <div class="col-sm-offset-2 col-sm-10">
-      <label for="cars">Gender:</label>
-      <select name="gender" id="gender">
-        <option value="volvo">Male</option>
-        <option value="saab">Female</option>
-       
-      </select>
-    </div>
+<form class="form-signin">
+  <h2 class="form-signin-heading">Please log in</h2>
+  <label for="inputEmail" class="sr-only">Email address</label>
+  <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+  <label for="inputPassword" class="sr-only">Password</label>
+  <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox" value="remember-me"> Remember me
+    </label>
   </div>
-
-  <div class="form-group">
-    <div class="col-sm-offset-2 col-sm-10">
-      <div class="checkbox">
-        <label>
-          <input type="checkbox"> Remember me
-        </label>
-      </div>
-    </div>
-  </div>
-  <div class="form-group">
-    <div class="col-sm-offset-2 col-sm-10">
-      <button type="submit" class="btn btn-default">Sign in</button>
-    </div>
-  </div>
+  <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
 </form>
+
+</div> <!-- /container -->
 
 
 
